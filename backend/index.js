@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const conn = require('./database/conn')
 const jwt = require('jsonwebtoken')
-
+const cors = require('cors')
 
 const authenticationRoutes = require('./routes/authRoutes')
 const userRoute = require('./routes/userRoutes')
@@ -45,6 +45,8 @@ function VerifyJWT(req, res, next) {
         }
     })
 }
+
+app.use(cors("http://localhost:3333/login"))
 
 app.use('/login', authenticationRoutes)
 app.use('/logout', authenticationRoutes)
