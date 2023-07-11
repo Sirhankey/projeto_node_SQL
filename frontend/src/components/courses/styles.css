@@ -1,0 +1,31 @@
+.card {
+    background: #f1f1f1;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px 15px;
+    min-width: 200px;
+    min-height: 150px; 
+}
+button {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.cancelar {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.title {
+    background: #ccc;
+    padding: 30px;
+    text-align: center;
+}

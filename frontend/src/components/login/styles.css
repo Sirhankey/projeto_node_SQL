@@ -1,0 +1,60 @@
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#login .form {
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 480px;
+    padding: 1rem 2rem;
+    border-radius: 10px;;
+}
+
+#login .field label {
+    display: block
+}
+
+#login .field {
+    padding-bottom: 0.5rem;
+}
+
+#login .field input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#login .acao {
+    text-align: center;
+    margin-top: 0.5rem;
+
+}
+
+.logar {
+    background: #ccc;
+    color: #fff;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-cadastrar {
+    
+    color: #333;
+    border: none;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cad{
+    text-align: center;
+}

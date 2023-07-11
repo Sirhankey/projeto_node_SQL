@@ -18,7 +18,7 @@ app.use(
 app.use(express.json())
 
 function VerifyJWT(req, res, next) {
-    const token = req.body.token || req.query.token
+    const token = req.headers.authorization
     const reftoken = req.body.reftoken || req.query.reftoken
 
     if (!token) {
